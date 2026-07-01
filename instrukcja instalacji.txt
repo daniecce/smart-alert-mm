@@ -1,0 +1,33 @@
+KROK 1: Synchronizacja plików
+
+Wejdź na OneDrive, znajdź udostępniony przeze mnie folder Projekt Smart MM.
+
+Skonfiguruj go tak, aby synchronizował się z Twoim lokalnym dyskiem (najlepiej używając opcji "Dodaj skrót do moich plików"). Pliki CSV wrzucamy i aktualizujemy w folderze Smart_MM.
+
+KROK 2: Instalacja środowiska Python (Robisz to tylko raz)
+
+Pobierz Pythona stąd: https://www.python.org/downloads/
+
+Otwórz instalator. KRYTYCZNE: Na samym dole okna instalatora musisz zaznaczyć małe okienko: Add python.exe to PATH. Bez tego program nie odpali.
+
+Kliknij "Install Now".
+
+KROK 3: Instalacja modułów bazy danych (Robisz to tylko raz)
+
+Kliknij na klawiaturze Windows + R, wpisz cmd i wciśnij Enter.
+
+W czarnym oknie wklej poniższą komendę i wciśnij Enter:
+
+pip install streamlit pandas openpyxl streamlit-aggrid
+
+Poczekaj, aż system ściągnie pakiety z internetu.
+
+KROK 4: Uruchamianie programu na co dzień
+
+Wejdź w zsynchronizowany folder Projekt Smart MM na swoim komputerze.
+
+Kliknij prawym przyciskiem myszy na plik z ikoną kółka zębatego (plik .bat) -> Pokaż więcej opcji -> Wyślij do -> Pulpit (utwórz skrót).
+
+Zmień nazwę skrótu na pulpicie na Smart MM.
+
+Gdy chcesz pracować, po prostu klikasz dwukrotnie ten skrót. Otwarte czarne okno to serwer aplikacji – nie zamykaj go podczas pracy. Aplikacja otworzy się automatycznie w Twojej przeglądarce. Pamiętaj, że każdy z nas pracuje na swojej, całkowicie niezależnej sesji.

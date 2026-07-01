@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(PYTHONIOENCODING=utf-8 python -m pytest tests/ -v)",
+      "Bash(PYTHONIOENCODING=utf-8 python \"C:\\\\Users\\\\dcecelon\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\c--Users-dcecelon-OneDrive---Inter-Cars-S-A-Projekt-Smart-MM\\\\9dffaadb-4c8d-464b-a978-b22f7fb8c79d\\\\scratchpad\\\\verify_dane_testowe.py\")",
+      "Bash(PYTHONIOENCODING=utf-8 python -c ' *)"
+    ]
+  }
+}

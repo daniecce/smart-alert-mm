@@ -1,0 +1,16 @@
+# Dane firmowe (CSV) - nie commitujemy
+Smart_MM/
+*.csv
+
+# Skrypty uruchomieniowe
+*.bat
+
+# Python
+__pycache__/
+*.pyc
+.env
+venv/
+.pytest_cache/
+*.egg-info/
+.coverage
+htmlcov/
